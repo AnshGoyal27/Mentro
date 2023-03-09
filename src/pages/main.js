@@ -99,7 +99,7 @@ export const Main = ()=>{
                 <ProfileCircle />
             </div>
             <div id='mainImage' >
-                <img className='img' alt=''/>
+                <img className='img' src={profile.Source} alt=''/>
             </div>
             <button id='btn1' className='btn rounded-full' onClick={()=>moveProfileCircle('left')} >
                 <HiOutlineArrowNarrowDown className='invert' style={{'scale':'200%','marginLeft':'40%'}} />
